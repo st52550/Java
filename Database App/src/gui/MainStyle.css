@@ -1,0 +1,192 @@
+/* 
+    Created on : 4.11.2018, 0:40:00
+    Author     : st52550
+*/
+
+#login-grid {
+    -fx-background-color: #fcfcfc;
+}
+
+.tab{
+    -fx-background-color: #333333;    
+}
+
+.tab .tab-label{
+    -fx-font: 20px "Tahoma";  
+    -fx-text-fill: #ffffff;
+    -fx-font-smoothing-type: lcd;  
+}
+
+.tab:selected{
+    -fx-border-color: #a72623;
+    -fx-border-width: 0 0 5 0;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+}
+
+.tab:focused{
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+}
+
+.tab-pane{
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: #333333;
+    -fx-font: 16px "Tahoma";  
+    -fx-font-weight: 600;
+    -fx-fill: #000000; 
+    -fx-tab-min-height: 3em;
+    -fx-tab-max-height: 3em;
+    -fx-tab-min-width: 9em;
+    -fx-tab-max-width: 9em;
+}
+
+.tab-pane *.tab-header-background{
+    -fx-background-color: transparent;
+}
+
+.tab-pane:top *.tab-header-area{
+    -fx-background-insets: 0 0 0 0;
+    -fx-padding: 0 0 0 0;
+}
+
+#layout{
+    -fx-background-color: #fcfcfc;
+}
+
+#title {
+    -fx-font: 20px "Tahoma";     
+    -fx-fill: #000000; 
+}
+
+#uzivatel {
+    -fx-background-color: #707070;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 3 0 3 10;
+}
+
+.label {
+    -fx-font: 16px "Tahoma";  
+    -fx-font-weight: 600;
+    -fx-text-fill: #000000;
+}
+
+#pokracovat {
+    -fx-border-width: 0;
+    -fx-pref-height: 15px;
+    -fx-background-insets: 0;
+    -fx-background-color: #333333;
+    -fx-border-color: #333333;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 8 8 8 8;
+}
+
+.button {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent;
+    -fx-text-fill: #000000;
+    -fx-border-color: #333333;
+    -fx-border-width: 2;   
+    -fx-font: 16px "Tahoma";  
+    -fx-font-weight: 600;
+    -fx-padding: 8 8 8 8;
+}
+
+.button:hover{
+    -fx-background-insets: 0;
+    -fx-background-color: #333333;
+    -fx-border-color: #333333;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+    -fx-padding: 8 8 8 8;
+}
+
+
+.text-field{
+    -fx-background-color: #fcfcfc;
+    -fx-border-color: #a9a9a9;
+    -fx-font: 16px "Tahoma";  
+    -fx-font-weight: 600;
+    
+}
+
+.text-field:focused {
+    -fx-background-color: #ffffff; 
+    -fx-border-color: #333333;
+}
+
+.combo-box > .list-cell {   
+    -fx-background-color: #fcfcfc;
+    -fx-border-color: #a9a9a9;
+    -fx-border-width: 1;
+    -fx-text-fill: #000000;
+    -fx-font: 16px "Tahoma";
+}
+
+/*.combo-box > .list-cell:focused {
+    -fx-border-color: #333333;
+    -fx-background-color: #fcfcfc;
+}*/
+
+.table-view{
+    -fx-text-fill: #000000;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.table-view .column-header,
+.table-view .column-header-background,
+.table-view .column-header-background .filler{
+    -fx-background-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.table-view .column-header{
+    -fx-border-width: 0 1 1 0;
+    -fx-background-color: #fcfcfc;
+    -fx-border-color: #000000;
+    -fx-focus-color: transparent;
+}
+
+.table-row-cell:filled:selected:focused, .tree-table-row-cell:filled:selected {
+    -fx-background-color: linear-gradient(#d64f4f 0%, #db4a4a 25%, #d14d4d 50%, 
+        #cc5151 100%);
+}
+.table-row-cell {   
+    -fx-background-color: white;
+    -fx-border-color: lightgrey;
+    -fx-border-width: 0 0 1 0;
+    -fx-cell-size: 30px;
+    -fx-text-fill: #000000;
+    -fx-font: 16px "Tahoma";
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.table-row-cell:filled:hover {
+    -fx-background-color: #e0d7d7;
+}
+
+.list-cell:filled:selected:focused, .tree-table-row-cell:filled:selected {
+    -fx-background-color: linear-gradient(#d64f4f 0%, #db4a4a 25%, #d14d4d 50%, 
+        #cc5151 100%);
+}
+.list-cell {   
+    -fx-background-color: white;
+    -fx-border-color: lightgrey;
+    -fx-border-width: 0 0 1 0;
+    -fx-cell-size: 30px;
+    -fx-text-fill: #000000;
+    -fx-font: 16px "Tahoma";
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #e0d7d7;
+}
